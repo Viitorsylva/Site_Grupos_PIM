@@ -1,0 +1,74 @@
+/* ----- CONFIGURAÇÕES GERAIS ----- */
+body {
+    background: #f5f7fa;               /* Cor de fundo clara e suave */
+    font-family: "Segoe UI", Roboto, sans-serif;  /* Fonte padrão moderna e fácil de ler */
+}
+
+h1 {
+    font-weight: 600;                 /*Titulo em negrito */
+    font-size: 5rem;                  /* Tamanho do Titulo */
+    color: #ffea00;                       /* Cor cinza escura para contraste */
+    text-shadow:   
+         2px  2px 0 #000; 
+}
+
+h2 {
+    font-weight: 600;                 /*Titulo em negrito */
+    font-size: 1rem;                  /* Tamanho do Titulo */
+    color: #ffffff;                       /* Cor cinza escura para contraste */
+      background-color: red;        /* Fundo vermelho */
+    font-size: 1rem;            /* Tamanho ajustável */
+    padding: 0.5rem 1rem;         /* Espaçamento interno */
+    display: inline-block;        /* Para se ajustar ao conteúdo */
+    border-radius: 8px;           /* Bordas levemente arredondadas (opcional) */
+    text-transform: uppercase;    /* Letras maiúsculas */
+  }
+/* ----- ESTILIZAÇÃO DOS CARDS ----- */
+.card {
+    border-radius: 15px;               /* Bordas arredondadas */
+    border: none;                      /* Remove bordas padrão */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08); /* Sombra suave para dar profundidade */
+    transition: transform 0.2s ease;   /* Animação suave ao passar o mouse */
+}
+
+.card:hover {
+    transform: translateY(-3px);       /* Quando o mouse passa, o card "sobe" levemente */
+}
+
+/* ----- BOTÕES ----- */
+.btn-primary {
+    background-color: #4e73df;         /* Azul principal */
+    border: none;                      /* Remove borda padrão */
+    border-radius: 30px;               /* Deixa o botão arredondado (pílula) */
+    padding: 10px 20px;                /* Espaçamento interno maior */
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;         /* Cor mais escura ao passar o mouse */
+}
+
+.btn-warning {
+    border-radius: 30px;               /* Também arredondado */
+    padding: 10px 20px;                /* Mantém padrão com os outros botões */
+}
+
+.btn-danger {
+    border-radius: 30px;               /* Botão vermelho arredondado */
+    padding: 10px 20px;
+}
+
+/* ----- TABELAS ----- */
+.table {
+    background: white;                 /* Fundo branco para contraste */
+    border-radius: 12px;               /* Bordas arredondadas */
+    overflow: hidden;                  /* Faz bordas arredondadas funcionarem corretamente */
+}
+
+.table thead {
+    background: #4e73df;               /* Cabeçalho azul */
+    color: white;                      /* Texto branco no cabeçalho */
+}
+
+.table tbody tr:hover {
+    background: #f1f3f8;               /* Efeito hover: destaca linha quando o mouse passa */
+}
